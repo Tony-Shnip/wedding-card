@@ -1,59 +1,27 @@
-@font-face {
-	font-family: 'marck'; 
-	src: url(/fonts/marck.ttf); 
-}
-
-@font-face {
-	font-family: 'nastya'; 
-	src: url(/fonts/nastya2.ttf); 
-}
-
 * {
-  font-family: 'nastya';
   margin: 0;
 }
 
-body {
-  background-color: rgb(238, 255, 255);
-  color: #468ea5;
+@media (min-width: 600px) {
+  div {
+    width: 100vw;
+  }
+  
+  img {
+    width: 100vw;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
 }
 
-header {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-#header_names {
-  text-align: center;
-  font-size: 42pt;
-}
-
-.header_letters {
-  margin-top: 20px;
-  display: flex;
-  height: 200px;
-  width: 200px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 96pt;
-  border-radius: 50%;
-  border: 7px solid #d6eaf5;
-}
-
-.first_letter {
-  margin-bottom: 50px;
-  margin-left: -40px;
-}
-
-.second_letter {
-  margin-top: 50px;
-}
-
-.header_text {
-  margin-top: 40px;
-  font-size: 54pt;
+@media (min-width: 600px) {
+  div {
+    width: 100vw;
+  }
+  
+  img {
+    width: 100vw;
+  }
 }
