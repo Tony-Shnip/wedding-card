@@ -11,17 +11,25 @@
     width: 100vw;
   }
 
+  .mobile {
+    display: none;
+  }
+
   ::-webkit-scrollbar {
     width: 0;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 300px) {
   div {
     width: 100vw;
   }
   
   img {
     width: 100vw;
+  }
+
+  .mobile {
+    display: inline;
   }
 }
