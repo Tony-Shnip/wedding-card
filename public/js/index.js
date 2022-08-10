@@ -3,4 +3,18 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
   var widthM = window.screen.width * dpt;
   var widthH = window.screen.height * dpt;
   document.write('<meta name="viewport" content="width=' + widthM+ ', height=' + widthH + '">');
+
+  let images = [];
+  images[0] = document.getElementById('1');
+  images[1] = document.getElementById('2');
+  images[2] = document.getElementById('3');
+  let mobileImg = document.getElementById('mobile');
+
+  if (window.screen.width < 600) {
+    mobileImg.style.display = 'inline';
+
+    images[0].setAttribute('src', './images/1_mobile.png');
+    images[1].setAttribute('src', './images/2_mobile.png');
+    images[2].setAttribute('src', './images/3_mobile.png');
+  }
 }
