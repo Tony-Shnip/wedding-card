@@ -8,10 +8,12 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
   images[0] = document.getElementById('1');
   images[1] = document.getElementById('2');
   images[2] = document.getElementById('3');
-  let mobileImg = document.getElementById('mobile');
+  let mobileImg4 = document.getElementById('mobile_4');
+  let mobileImg5 = document.getElementById('mobile_5');
 
   if (window.screen.width < 600) {
-    mobileImg.style.display = 'inline';
+    mobileImg4.style.display = 'inline';
+    mobileImg5.style.display = 'inline';
 
     images[0].setAttribute('src', './images/1_mobile.png');
     images[1].setAttribute('src', './images/2_mobile.png');

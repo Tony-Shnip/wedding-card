@@ -2,7 +2,11 @@
   margin: 0;
 }
 
-#mobile {
+#mobile_4 {
+  display: none;
+}
+
+#mobile_5 {
   display: none;
 }
 
